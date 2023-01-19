@@ -1,20 +1,23 @@
-
-
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
-  line-height: 1.75;
   color: #ffffff;
 }
 
-p {margin-bottom: 1rem;
-  line-height: 145%;}
-
-h1, h2, h3, h4, h5 {
-  margin: 3rem 0 1.38rem;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+p {
+  margin-bottom: 1rem;
   line-height: 145%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0rem 0 1.38rem !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 120%;
 }
 
 h1 {
@@ -22,73 +25,157 @@ h1 {
   font-size: 2.488rem;
 }
 
-h2 {font-size: 2.074rem;}
+h2 {
+  font-size: 2.074rem;
+}
 
-h3 {font-size: 1.728rem;}
+h3 {
+  font-size: 1.728rem;
+}
 
-h4 {font-size: 1.44rem;}
+h4 {
+  font-size: 1.44rem;
+}
 
-h5 {font-size: 1.2rem;}
+h5 {
+  font-size: 1.2rem;
+}
 
-small, .text_small {font-size: 0.833rem;}
+small,
+.text_small {
+  font-size: 0.833rem;
+}
 
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+.flex-container {
+  display: flex;
+  background-color: #084b87;
+  height: 100%;
+  font-family: sans-serif;
+}
+.left-column,
+.right-column {
+  display: flex;
+}
+.left-column {
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: calc(5vh + 5px);
+}
 
-*{
-    box-sizing: border-box;
-  }
-  html, body{
-    height: 100%;
-  }
-  .flex-container{
-      display: flex;
-      background-color: #084B87;
-      height: 100%;
-    font-family: sans-serif;
-  }
-  .left-column, .right-column{ 
-     display: flex;
-     flex-direction: row;
-  }
-  .left-column{
-    background-image: url("../img/pattern.png");
-    background-repeat: repeat;
-    width: 50%;
-    display:flex;
+.right-column {
+  background-image: url("../img/real-estate.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+  padding-bottom: 2vh;
+  align-items: flex-end;
+  gap: 3vh;
+}
+.link-wrap-left,
+.link-wrap-right {
+  display: flex;
+}
+.link-wrap-left a,
+.link-wrap-right a {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.button {
+  background-color: #ef9143;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  padding: 18px 32px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.padding-box {
+  padding: 5%;
+}
+.logo {
+  width: 20vw;
+}
+
+.link {
+  color: #ffffff;
+}
+
+#button {
+  display: block;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {
+  .flex-container {
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    height: auto;
+  }
+  .left-column,
+  .right-column {
+    width: 100%;
+    height: auto;
+    gap: 4vh;
+  }
+  .right-column {
+    height: 50vh;
+  }
+  .left-column {
+    padding: 4vh 4vh 8vh 4vh;
+  }
+  .logo {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    width: 50vw;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo {
+    width: 30vw;
   }
  
-  .right-column{
-    background-image: url("../img/real-estate.jpg");
-    background-size: cover;
-    background-position: center center;
-      width: 50%;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .logo {
+    width: 25vw;
   }
-  .link-wrap-left, .link-wrap-right{
-    display: flex;
-  } 
-  .link-wrap-left a, .link-wrap-right a{
-      font-size: 30px;
-      font-weight: 600;
-    color: white;
-  }
+ 
+ 
+}
 
-.padding-box{padding: 5%;}
-
-  @media only screen and (max-width: 1024px){
-     .flex-container{
-         flex-direction: column;
-     }
-     .left-column, .right-column{
-         width: auto;
-         height: 80%;
-     }
-     .link-wrap-left, .link-wrap-right{
-         width: 100%;
-     }
-     .padding-box{padding: 8%;}
-
-  }
-
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* CSS styles here */
+ 
+}
