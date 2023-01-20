@@ -45,6 +45,7 @@ small,
 .text_small {
   font-size: 0.833rem;
 }
+.large {font-size: 1.25rem;}
 
 * {
   box-sizing: border-box;
@@ -71,7 +72,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: calc(5vh + 5px);
 }
 
 .right-column {
@@ -82,9 +82,9 @@ body {
   display: flex;
   flex-direction: row;
 justify-content: center;
-  padding-bottom: 2vh;
+  padding-bottom: 1rem;
   align-items: flex-end;
-  gap: 3vh;
+  gap: 1rem;
 }
 .link-wrap-left,
 .link-wrap-right {
@@ -138,7 +138,7 @@ justify-content: center;
   .right-column {
     width: 100%;
     height: auto;
-    gap: 4vh;
+    
   }
   .right-column {
     height: 50vh;
@@ -148,8 +148,8 @@ justify-content: center;
   }
   .logo {
     padding-top: 4vh;
-    padding-bottom: 4vh;
-    width: 50vw;
+    padding-bottom: 1vh;
+    width: 70vw;
   }
   h1 {
     font-size: 2rem;
