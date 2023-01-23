@@ -73,7 +73,7 @@ body {
 }
 
 .right-column {
-  background-image: url("../img/real-estate.jpg");
+  background-image: url("../img/city.svg");
   background-size: cover;
   background-position: center center;
   width: 50%;
@@ -133,7 +133,7 @@ body {
 }
 
 .link {
-  color: #ffffff;
+  color: #3580B7;
 }
 
 #button {
