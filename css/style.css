@@ -72,18 +72,17 @@ body {
   align-items: center;
 }
 
-
 .right-column {
   background-image: url("../img/city-2.svg");
   background-size: cover;
   background-position: center center;
   width: 50%;
   display: flex;
-	flex-direction: column;
-	justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
 .item-0 {
-	flex-grow: 1;
+  flex-grow: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,7 +90,7 @@ body {
 }
 
 .item-1 {
-	flex-grow:0;
+  flex-grow: 0;
   display: flex;
   flex-direction: row;
   gap: 1rem;
@@ -107,7 +106,6 @@ body {
   font-size: 30px;
   font-weight: 600;
   color: white;
-
 }
 
 .button {
@@ -134,11 +132,25 @@ body {
 }
 
 .link {
-  color: #3580B7;
+  color: #3580b7;
 }
 
 #button {
   display: block;
+}
+
+.float {
+  animation: float 4s infinite alternate-reverse ease-in-out;
+  position: relative;
+  bottom: 0;
+}
+@keyframes float {
+  0% {
+    bottom: 0px;
+  }
+  100% {
+    bottom: 40px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -153,7 +165,6 @@ body {
     height: auto;
   }
   .right-column {
-    
   }
   .left-column {
     padding: 4vh 4vh 8vh 4vh;
