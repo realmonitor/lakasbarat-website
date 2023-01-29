@@ -50,7 +50,7 @@ small,
 }
 html,
 body {
-  height: 100%;
+  height: ;
 }
 .flex-container {
   display: flex;
@@ -191,6 +191,7 @@ body {
   .logo {
     width: 25vw;
   }
+  
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
