@@ -4,6 +4,7 @@ body {
   color: #ffffff;
 }
 
+
 p {
   margin-bottom: 1rem;
   line-height: 145%;
@@ -50,7 +51,7 @@ small,
 }
 html,
 body {
-  height: ;
+  height: 100%;
 }
 .flex-container {
   display: flex;
