@@ -4,14 +4,14 @@
 
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MG5KK0QQV4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MG5KK0QQV4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-MG5KK0QQV4');
-</script>
+    gtag('config', 'G-MG5KK0QQV4');
+  </script>
   <!-- Google tag (gtag.js) -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,8 +19,8 @@
   <meta name="title" content="Lakásbarát | Lakások barátoktól">
   <meta name="description" content="Egy app, amely minden nap átnézi a netet, van-e olyan ismerősöd, barátod, korábbi megbízód, aki épp
   eladná vagy kiadná a lakását.">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/reset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="icon" type="image/x-icon" href="img/favicon.svg">
@@ -30,42 +30,43 @@
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="hu_HU" />
   <meta property="og:title" content="Lakásbarát | Lakások barátoktól" />
-  <meta property="og:description" content="gy app, amely minden nap átnézi a netet, van-e olyan ismerősöd, barátod, korábbi megbízód, aki épp
+  <meta property="og:description" content="Egy app, amely minden nap átnézi a netet, van-e olyan ismerősöd, barátod, korábbi megbízód, aki épp
   eladná vagy kiadná a lakását." />
-  <meta property="og:image"
-    content="https://lakasbarat.hu/lakasbarat-og-image.png" />
+  <meta property="og:image" content="https://lakasbarat.hu/lakasbarat-og-image.jpg" />
 </head>
 
 <body>
   <div class="flex-container">
-    <div class="left-column pattern padding-box">
-      <div class="logo"><img src="../img/logo.svg" alt="logo" width="100%" height="auto">
+    <div class="left-column pattern padding-box ">
+      <div style="display: flex;flex-direction: column;align-items: center; gap:1rem"><img src="/img/logo.svg"
+          alt="logo" width="100%" height="auto" class="logo">
+        <div style="text-align: center;">
+          <h1>Lakások barátoktól</h1>
+        </div>
       </div>
-      <div style="margin-top: 1rem; text-align: center;">
-        <h1>Lakások barátoktól</h1>
-      </div>
-      <div style="margin-top: 2rem; margin-bottom: 3rem;">
-        <p class="large" style="margin-bottom: 2rem;">A LAKÁSBARÁT minden nap átnézi a netet, van-e olyan ismerősöd,
+
+      <div style="">
+        <p class="large" style="margin-bottom: 1rem;">A LAKÁSBARÁT minden nap átnézi a netet, van-e olyan ismerősöd,
           barátod, korábbi megbízód aki épp eladná vagy kiadná a
           lakását.
           Tőlük vásárolva őszinteségre, biztonságra és kedvezőbb árra számíthasz. És megbízást is könnyebben adnak.
         </p>
-        <p id="qrtext">Telepítéshez a mobilod alkalmazásboltjában keress rá a LAKÁSBARÁT applikációra vagy használd az
-          alábbi QR
-          kódot.
-        </p>
       </div>
-      <div id="qrcode">
-        <img src="../img/qrcode.png" alt="logo" width="150vw" height="auto">
+      <div id="qrcode" style="align-items: center;gap:2rem;">
+        <div>
+          <p id="qrtext">Telepítéshez a mobilod alkalmazásboltjában keress rá a LAKÁSBARÁT applikációra vagy használd ezt a QR
+            kódot.
+          </p>
+        </div>
+        <div><img src="/img/qrcode.png" alt="logo" width="150vw" height="auto"></div>
       </div>
-      <div id="button"><a href="../download.html" class="button">TELEPÍTÉS</a></div>
+      <div id="button"><a href="/download.html" class="button">TELEPÍTÉS</a></div>
     </div>
     <div class="right-column">
-      <div class="item-0 float"><img src="../img/phone.png" alt="phone" height="auto" width="75%">
+      <div class="item-0 float" style=""><img class="phone" src="/img/phone.png" alt="phone">
       </div>
       <div class="item-1">
         <div><a class="link" href="#" class="" target="_blank">ÁSZF & Adatkezelés</a></div>
-
       </div>
     </div>
   </div>

@@ -13,7 +13,7 @@ if (isMobile) {
 } else {
   // Hide the button
   button.style.display = "none";
-  qrcode.style.display = "block";
+  qrcode.style.display = "flex";
   qrtext.style.display = "block";
 }
 
@@ -27,7 +27,7 @@ window.addEventListener("resize", function() {
   } else {
     // Hide the button
     button.style.display = "none";
-    qrcode.style.display = "block";
+    qrcode.style.display = "flex";
     qrtext.style.display = "block";
   }
 });
