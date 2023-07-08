@@ -33,6 +33,26 @@
   <meta property="og:description" content="Egy app, amely minden nap átnézi a netet, van-e olyan ismerősöd, barátod, korábbi megbízód, aki épp
   eladná vagy kiadná a lakását." />
   <meta property="og:image" content="https://lakasbarat.hu/lakasbarat-og-image.jpg" />
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '301507505673182');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=301507505673182&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+
 </head>
 
 <body>
@@ -46,12 +66,15 @@
       </div>
 
       <div style="">
-        <p class="large" style="margin-bottom: 1rem;">A LAKÁSBARÁT minden nap átnézi a netet, van-e olyan ismerősöd, barátod, korábbi megbízód aki épp eladná a lakását. Ha a családod, közeli barátaid is felteszik az appot, azonnal kiderül, hogy ők mely ismerősüknek tudnának téged ajánlani, akik épp eladnák a lakásukat.
+        <p class="large" style="margin-bottom: 1rem;">A LAKÁSBARÁT minden nap átnézi a netet, hogy van-e olyan
+          ismerősöd, barátod, korábbi megbízód, aki épp eladná a lakását. Ha a családod, közeli barátaid is felteszik az
+          appot, azonnal kiderül, hogy ők mely ismerősüknek tudnának téged ajánlani, akik épp eladnák a lakásukat.
         </p>
       </div>
       <div id="qrcode" style="align-items: center;gap:2rem;">
         <div>
-          <p id="qrtext">Telepítéshez a mobilod alkalmazásboltjában keress rá a LAKÁSBARÁT applikációra vagy használd ezt a QR
+          <p id="qrtext">Telepítéshez a mobilod alkalmazásboltjában keress rá a LAKÁSBARÁT applikációra vagy használd
+            ezt a QR
             kódot.
           </p>
         </div>
@@ -63,7 +86,8 @@
       <div class="item-0 float" style=""><img class="phone" src="../img/phone.png" alt="phone">
       </div>
       <div class="item-1">
-        <div><a class="link" href="../docs/LAKASBARAT-ASZF-AT-20230501.pdf" class="" target="_blank">ÁSZF & Adatkezelés</a></div>
+        <div><a class="link" href="../docs/LAKASBARAT-ASZF-AT-20230501.pdf" class="" target="_blank">ÁSZF &
+            Adatkezelés</a></div>
       </div>
     </div>
   </div>
